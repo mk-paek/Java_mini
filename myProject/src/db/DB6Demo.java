@@ -31,7 +31,7 @@ public class DB6Demo {
 		Connection con = makeConnection();
 		Statement stmt = con.createStatement();
 		
-		String sql = "DELETE from person where name= '강감찬'";
+		String sql = "DELETE from person where name= '이재용'";
 		if (stmt.executeUpdate(sql) == 1)
 			System.out.println("레코드 삭제 성공");
 		else
